@@ -1,10 +1,9 @@
 :root {
-    --cor-de-fundo: #191970;
+    --cor-de-fundo: #8b0000;
     --roxo: #191970;
     --menta: #2cffa7f6;
-    --botao-ativo: #43caff;
-    --botao-inativo: #d51fe6;
-    --texto-fundo: #ffffff;
+    --botao-ativo: #077099;
+    --botao-inativo: #aa0e0e;
 }
 
 @import url("https://fonts.googleapis.com/ css2?family=Chakra+Petch:wght@400;700&display=swap");
@@ -81,7 +80,4 @@ body {
                 text-align: center;
                 color: var(--verde);
                 text-transform: uppercase;
-            }
-
-            
-            
+            }         
