@@ -1,18 +1,21 @@
 :root {
     --cor-de-fundo: #240046;
-    --roxo: #191970;
-    --menta: #2cffa7f6;
+    --roxo: #832347;
+    --menta: #8E00CE;
     --botao-inativo: rgba(58, 55, 94, 0.5);
     --texto-fundo: rgba(255, 255, 255, 0.589);
 }
 
+
 @import url("https://fonts.googleapis.com/ css2?family=Chakra+Petch:wght@400;700&display=swap");
+
 
 body {
     background-color: var(--cor-de-fundo);
     color: var(--roxo meia noite); 
     font-family: "Chakra Petch", sans-serif;
     }
+
 
 .conteudo-principal { 
         display: flex;
@@ -24,6 +27,7 @@ body {
         margin: 0 auto;
     }
 
+
 .titulo-principal {
             text-align: left;
             width: 100%;
@@ -31,10 +35,12 @@ body {
         }
         
         
+
 .titulo-principal span {
             color: var(--laranja crepusculo);
         }
         
+
 
 .botao {
         font-family: 'Chakra Petch', sans-serif;
@@ -92,6 +98,7 @@ body {
                 color: var(--verde);
                 text-transform: uppercase;
             }
+        }
             
             
 .contador{
@@ -114,6 +121,7 @@ body {
             }
             
             
+
 .contador-digito-texto{
                 color: var(--verde);
                 font-size: 20px;
@@ -121,11 +129,13 @@ body {
                    text-align: center;
         }
 
+
 .aba-conteudo-titulo-secundario{
             text-align: center;
             color: var(--azul ciano);
             text-transform: uppercase;
         }
+
 
 .aba-conteudo-titulo-secundario{
             text-align: center;
@@ -175,4 +185,3 @@ body {
             border-radius: 0 40px 0 0;
          }
      }
-        
